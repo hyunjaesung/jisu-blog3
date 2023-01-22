@@ -101,7 +101,7 @@ body::-webkit-scrollbar-track {
 }
 
 body {
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
+  font-family: 'Poppins', 'Noto Sans KR',-apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
     helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   transition-property: background-color, color, background;
   transition-duration: 0.3s;

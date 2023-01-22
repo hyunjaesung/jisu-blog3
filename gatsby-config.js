@@ -20,7 +20,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    "gatsby-plugin-use-dark-mode",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -68,16 +67,6 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        modulePath: `${__dirname}/src/netlify-cms/index.js`,
-        enableIdentityWidget: true,
-        publicPath: "admin",
-        htmlTitle: "Content Manager",
-        includeRobots: false,
       },
     },
     {
@@ -136,20 +125,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Source Sans Pro`, `Poppins\:400,400i,700`],
+        fonts: [`Poppins\:400,400i,700`, `Noto Sans KR\:400,400i,700`],
         display: "swap",
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Gatsby Frosted Blog`,
-        short_name: `Gatsby Frosted`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

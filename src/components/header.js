@@ -15,12 +15,7 @@ const HEADER_NAV_ITEM = [
     label: "About",
     url: "/about",
     isExternal: false,
-  },
-  {
-    label: "Contact",
-    url: "/contact",
-    isExternal: false,
-  },
+  }
 ];
 
 const Header = () => {
@@ -61,9 +56,6 @@ const Header = () => {
               </HeaderNavListItem>
             );
           })}
-          <HeaderNavListItem>
-            <ThemeSwitch />
-          </HeaderNavListItem>
         </HeaderNavList>
       </HeaderWrapper>
     </StyledHeader>
