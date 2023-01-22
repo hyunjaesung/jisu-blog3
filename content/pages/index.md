@@ -1,8 +1,8 @@
 ---
 template: "index-template"
-title: "Gatsby Starter Glass"
+title: "김지수 그녀의 도전"
 ---
 
-# Hello World
+# 김지수 그녀의 도전
 
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+이 시작된다

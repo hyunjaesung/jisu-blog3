@@ -1,28 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: `김지수 블로그`,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `김지수`,
+      summary: `김지수의 일상이야기`,
     },
     openGraphImage: `open-graph-image.png`,
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
-    social: {
-      twitter: `yinkakun`,
-    },
+    description: `김지수 그녀의 도전이 시작된다`,
+    siteUrl: `https://www.naver.com`,
     socialLinks: [
       {
-        name: "github",
-        url: "https://github.com",
-      },
-      {
-        name: "twitter",
-        url: "https://twitter.com",
-      },
-      {
         name: "instagram",
-        url: "https://instagram.com",
+        url: "https://instagram.com/myadorable_day/",
       },
     ],
   },
