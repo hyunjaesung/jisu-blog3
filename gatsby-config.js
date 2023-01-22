@@ -7,7 +7,7 @@ module.exports = {
     },
     openGraphImage: `open-graph-image.png`,
     description: `김지수 그녀의 도전이 시작된다`,
-    siteUrl: `https://www.naver.com`,
+    siteUrl: `https://thriving-biscotti-9d3ff8.netlify.app/`,
     socialLinks: [
       {
         name: "instagram",
